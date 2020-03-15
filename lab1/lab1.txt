@@ -28,7 +28,8 @@ Status Code: 302 Found
 Специальное поведение
 d)
 HTTP ERROR 400
-Код указывает, что сервер не смог понять запрос из-за недействительного синтаксиса. Исправить hardly на hard: http://localhost/lw1/javascript_is_a_client_side_language.php?how_to_work=hard
+Код указывает, что сервер не смог понять запрос из-за недействительного синтаксиса. 
+Исправить hardly на hard: http://localhost/lw1/javascript_is_a_client_side_language.php?how_to_work=hard
 
 3. 
 Параметр charset требуется для того, чтобы указать кодировку символов документа. 
