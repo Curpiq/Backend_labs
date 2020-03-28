@@ -11,7 +11,7 @@ namespace CheckIdentifier
         static bool IsLetter(char ch)
         {
             return (ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z') || (ch >= 'А' && ch <= 'Я') ||
-                (ch >= 'a' && ch <= 'я') || (ch == 'Ё') && (ch == 'ё');
+                (ch >= 'a' && ch <= 'я') || (ch == 'Ё') || (ch == 'ё');
         }
         static bool IsDigit(char digit)
         {
