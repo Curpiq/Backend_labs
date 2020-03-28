@@ -6,18 +6,17 @@ using System.Threading.Tasks;
 
 namespace CheckIdentifier
 {
-    class Program
+    public class Program
     {
         static bool IsLetter(char ch)
         {
-            return (ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z') || (ch >= 'А' && ch <= 'Я') ||
-                (ch >= 'a' && ch <= 'я') || (ch == 'Ё') || (ch == 'ё');
+            return (ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z');
         }
         static bool IsDigit(char digit)
         {
             return (digit >= '0' && digit <= '9');
         }
-        static int Main(string[] args)
+        public static int Main(string[] args)
         {
             if (args.Length != 1)
             {
