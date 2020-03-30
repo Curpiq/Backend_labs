@@ -23,8 +23,8 @@ namespace CheckIdentifierTests
         [TestMethod]
         public void CorrectArg()
         {
-            string[] wrong = new string[1] { "sDN12V5" };
-            int result = Program.Main(wrong);
+            string[] correct = new string[1] { "sDN12V5" };
+            int result = Program.Main(correct);
             Assert.AreEqual(0, result);
         }
         [TestMethod]
