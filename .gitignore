@@ -295,3 +295,5 @@ lab3/RemoveExtraBlanks/RemoveExtraBlanksTests/obj/Debug/RemoveExtraBlanksTests.p
 lab3/RemoveExtraBlanks/RemoveExtraBlanksTests/packages.config
 lab2/remove_duplicates/.vs/remove_duplicates/v16/Server/sqlite3/storage.ide-shm
 lab2/remove_duplicates/.vs/remove_duplicates/v16/Server/sqlite3/storage.ide-wal
+lab3/CheckIdentifier/.vs/CheckIdentifier/v16/Browse.VC.db
+lab3/CheckIdentifier/.vs/CheckIdentifier/v16/ipch/AutoPCH/8310aa0a241d1879/LAB2.ipch
