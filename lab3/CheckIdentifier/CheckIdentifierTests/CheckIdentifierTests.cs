@@ -4,7 +4,7 @@ using CheckIdentifier;
 namespace CheckIdentifierTests
 {
     [TestClass]
-    public class CheckIdentifierTests
+    public class CheckIdentifier_Tests
     {
         [TestMethod]
         public void BeginWithDigit()
