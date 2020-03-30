@@ -25,12 +25,13 @@ namespace remove_duplicates
             for (int i = 0; i < newString.Length; i++)
             {
                 int j;
-                for (j = i + 1; j < newString.Length; j++)
+                for (j = i + 1; j < newString.Length;)
                 {
                     if (newString[i] == newString[j])
                     {
                         newString = newString.Remove(j, 1);
                     }
+                    else j++;
                 }
             }
             Console.WriteLine(newString);
