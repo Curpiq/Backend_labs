@@ -10,7 +10,7 @@ namespace RemoveExtraBlanksTests
         [TestMethod]
         public void ParseArgs_NoArguments_FalseReturned()
         {
-            string[] wrong = new string[1] { "" };
+            string[] wrong = new string[0] { };
             string fileName = "";
             bool result = Program.ParseArgs(wrong, ref fileName, ref fileName);
             Assert.AreEqual(false, result);
