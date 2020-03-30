@@ -44,7 +44,7 @@ namespace RemoveExtraBlanksTests
         }
 
         [TestMethod]
-        public void RemoveRepetitiveBlanksInLine_Test()
+        public void RemoveRepetitiveBlanksInLine_LineWithExtraBlanks()
         {
             string str = " Hello    world     ! ";
             string expected = " Hello world ! ";
@@ -53,7 +53,7 @@ namespace RemoveExtraBlanksTests
         }
 
         [TestMethod]
-        public void RemoveExtraBlanksInLine_Line_With_Blanks_In_The_Beginning_And_End()
+        public void RemoveExtraBlanksInLine_LineWithBlanksInTheBeginningAndEnd()
         {
             string str = " Hello    world     ! ";
             string expected = "Hello world !";
