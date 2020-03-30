@@ -293,3 +293,5 @@ lab3/RemoveExtraBlanks/RemoveExtraBlanksTests/obj/Debug/RemoveExtraBlanksTests.c
 lab3/RemoveExtraBlanks/RemoveExtraBlanksTests/obj/Debug/RemoveExtraBlanksTests.csprojAssemblyReference.cache
 lab3/RemoveExtraBlanks/RemoveExtraBlanksTests/obj/Debug/RemoveExtraBlanksTests.pdb
 lab3/RemoveExtraBlanks/RemoveExtraBlanksTests/packages.config
+lab2/remove_duplicates/.vs/remove_duplicates/v16/Server/sqlite3/storage.ide-shm
+lab2/remove_duplicates/.vs/remove_duplicates/v16/Server/sqlite3/storage.ide-wal
