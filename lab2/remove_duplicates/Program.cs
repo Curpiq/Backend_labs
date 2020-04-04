@@ -6,35 +6,29 @@ using System.Threading.Tasks;
 
 namespace remove_duplicates
 {
-    class Program
+    class Program 
     {
-        static int Main(string[] args)
+        static bool ParseArg(string[] args, ref string inputString)
         {
-            if (args.Length == 0)
-            {
-                Console.WriteLine("No parameters were specified!");
-                return 1;
-            }
-            if (args.Length > 1)
+            if (args.Length != 1)
             {
                 Console.WriteLine("Incorrect number of arguments!");
                 Console.WriteLine("Usage remove_duplicates.exe <input string>");
+                return false;
+            }
+            inputString = args[0];
+            return true;
+        }
+
+        static int Main(string[] args)
+        {
+            string inputString = "";
+            if (!ParseArg(args, ref inputString))
+            {
                 return 1;
             }
-            string newString = args[0];
-            for (int i = 0; i < newString.Length; i++)
-            {
-                int j;
-                for (j = i + 1; j < newString.Length;)
-                {
-                    if (newString[i] == newString[j])
-                    {
-                        newString = newString.Remove(j, 1);
-                    }
-                    else j++;
-                }
-            }
-            Console.WriteLine(newString);
+            inputString = String.Concat(inputString.Distinct());
+            Console.WriteLine(inputString);
             return 0;
         }
     }
