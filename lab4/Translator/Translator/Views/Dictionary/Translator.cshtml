@@ -1,0 +1,22 @@
+﻿@page
+@using Translator.Data.Models
+@model Dictionary
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" name="viewport" content="width=device-width">
+    <title>Translator</title>
+</head>
+<body>
+    <div class="container">
+        <h1 style="text-align:center">Translator</h1>
+        <h2 style="text-align:center">@ViewBag.word: @ViewBag.translation</h2>
+    </div>
+</body>
+</html>

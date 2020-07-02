@@ -1,0 +1,5 @@
+cat	кот
+dog	собака
+night	ночь
+rule	правило
+orange	апельсин
